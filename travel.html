@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>畅游上饶</title>
+		<!-- 引入title标签 -->
+		<link rel="icon" href="img/logo.png" sizes="32x32">
+		<!-- 引入common.css -->
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+
+		<!-- 引入travel.css -->
+		<link rel="stylesheet" type="text/css" href="css/travel.css" />
+		<!-- 引入图标库 -->
+		<link rel="stylesheet" type="text/css" href="fonts/fa/css/all.css" />
+		<!-- 引入JQuery -->
+		<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 引入common.js -->
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+
+		<!-- 引入travel.js -->
+		<script src="js/travel.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div id="header">
+
+			<div id="header_bar">
+				<div id="logo1"></div>
+
+				<div id="search">
+					<input type="text" name="search_text" id="search_text" placeholder="请输入要搜索的内容" />
+					<i id="search_btn" class="fas fa-search"></i>
+				</div>
+				<!-- 左部导航 -->
+				<div id="bar">
+					<ul id="pre_navbar" class="navbar">
+						<li><a href="login.html">登录</a>
+						</li>
+						<li><span class="line">/</span></li>
+						<li><a href="reg.html">注册</a></li>
+					</ul>
+					<ul id="de_navbar" class="navbar">
+						<li><i class="fas fa-bell"></i></li>
+						<li><i class="fas fa-comments"></i></li>
+						<li><a href="#"><i id="myhome"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- 头部logo -->
+
+			<div id="photo">
+			</div>
+		</div>
+
+		<div id="nav">
+			<ul id="first_nav">
+				<li class="first_li" id="f0"><a href="index.html?login=null">首页</a></li>
+				<li class="first_li" id="f1"><a href="introduction.html?login=null">上饶简介</a>
+					<ul id="s1" class="second_nav">
+						<li class="second_li"><a>上饶概况</a></li>
+						<li class="second_li"><a>历史沿革</a></li>
+						<li class="second_li"><a>地理环境</a></li>
+						<li class="second_li"><a>城市名片</a></li>
+					</ul>
+				</li>
+				<li class="first_li" id="f2"><a href="culture.html?login=null">饶州文化</a>
+					<ul id="s2" class="second_nav">
+						<li class="second_li"><a>生活文化</a></li>
+						<li class="second_li"><a>传统戏剧</a></li>
+						<li class="second_li"><a>民间文学</a></li>
+						
+					</ul>
+				</li>
+				<li class="first_li" id="f3"><a href="travel.html?login=null">畅游上饶</a>
+					<ul id="s3" class="second_nav">
+						<li class="second_li"><a>上饶景点</a></li>
+						<li class="second_li"><a>上饶美食</a></li>
+					</ul>
+				</li>
+				
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<div id="left_bar">
+			<ul id="lbar_ul">
+				<li class="lbar_li">
+					<i class="fas fa-pen"></i>
+					<p>意见反馈</p>
+					</li>
+				<li class="lbar_li">
+					<i class="fas fa-tv"></i>
+					<p>客服咨询</p>
+				</li>
+				<li class="lbar_li">
+					<i class="fas fa-share-square"></i>
+					<p>分享页面</p>
+				</li>
+				<li class="lbar_li" id="hddb">
+					<i class="fas fa-arrow-up"></i>
+					<p>回到顶部</p>
+				</li>
+			</ul>
+		</div>
+
+		<div id="content">
+			<div id="h_content">
+				<div id="h_img">
+					<video controls muted autoplay isrotate loop>
+						<source src="img/travel/ly.mp4" type="video/mp4"/>
+						当前浏览器不支持 video直接播放，点击这里下载视频: <a href="myvideo.webm">下载视频</a>
+					</video>
+				</div>
+				<div id="h_text">
+					<h1>畅游上饶</h1>
+				</div>
+			</div>
+
+			<div id="header_menu">
+				<ul id="header_menu_ul">
+					<li class="header_menu_li">上饶景点</li>
+					<li class="header_menu_li">上饶美食</li>
+					
+				</ul>
+			</div>
+
+			<div id="passage">
+				<div id="passage1">
+					<div class="travel_title" id="by">
+						<h1>必游景点TOP3</h1>
+						<hr>
+					</div>
+					<div class="by_content">
+						<div class="by_card">
+							<div class="by_text">
+								<span class="num">1</span>
+								<h2>三清山</h2>
+								<p class="t1">因玉京、玉虚、玉华三峰宛如道教玉清、上清、太清三位尊神列坐山巅而得名。</p>
+								<p class="t2">
+									相关介绍:三清山又名少华山、丫山，位于中国江西省上饶市玉山县与德兴市交界处。因玉京、玉虚、玉华三峰宛如道教玉清、上清、太清三位尊神列坐山巅而得名。</p>
+								相关景点：<span class="t3">南清园景区；三清宫景区；玉京峰景区等</span>
+							</div>
+							<hr>
+							<div class="by_img">
+								<div class="img_l">
+									<img src='img/travel/sqs1.png'>
+								</div>
+								<div class="img_r">
+									<img src='img/travel/sqs2.png'>
+									<img src='img/travel/sqs3.png'>
+								</div>
+							</div>
+						</div>
+
+						<div class="by_card">
+							<div class="by_text">
+								<span class="num">2</span>
+								<h2>葛仙山旅游度假区</h2>
+								<p class="t1">号称“中华灵宝第一山”</p>
+								<p class="t2">
+									相关介绍：葛仙山集宗教文化与自然风光为一体，是道教和佛教和睦共处的宗教地，形成了“一山两教、道佛双修”的宗教文化。葛仙山上古迹形胜，拥有洗脚坑、上马石、下马石、炼丹台、息心岩、仙人足印、飞升台、香炉峰、七星井、道人石、普同塔、试剑石、龙眼井、百步岭、千年古松等景观。
+								</p>
+
+							</div>
+							<hr>
+							<div class="by_img">
+								<div class="img_l">
+									<img src='img/travel/gxs1.png'>
+								</div>
+								<div class="img_r">
+									<img src='img/travel/gxs2.png'>
+									<img src='img/travel/gxs.png'>
+								</div>
+							</div>
+						</div>
+
+						<div class="by_card">
+							<div class="by_text">
+								<span class="num">3</span>
+								<h2>婺源风景区</h2>
+								<p class="t1">乡村风情，空气新鲜，有高山花海风景，又有小桥流水人家</p>
+								<p class="t2">
+									婺源境内林木葱郁、峰峦叠嶂、峡谷深秀、溪流潺潺，奇峰、怪石、驿道、古树、茶亭、廊桥及多个生态保护小区构成了婺源美丽的自然景观。这里民风纯朴，文风鼎盛，名胜古迹遍布全县。有保持完整的明清古建筑，有田园牧歌式的氛围和景色，自古有“书乡”的美称。
+								</p>
+								相关景点：<span class="t3">婺源篁岭旅游度假区等</span>
+							</div>
+							<hr>
+							<div class="by_img">
+								<div class="img_l">
+									<img src='img/travel/wy.png'>
+								</div>
+								<div class="img_r">
+									<img src='img/travel/wy1.png'>
+									
+									<img src='img/travel/wy2.png'>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+					
+
+					
+				</div>
+				<div id="passage2">
+					<div class="ms_title" id="bdmc">
+						<h1>上饶十大名菜</h1>
+						<hr>
+					</div>
+
+					<div class="mc" id="mc1">
+						<ul class="mc_content">
+							<li class="mc_card">
+								<img src='img/travel/ygkjcr.jpg'>
+								<h2>余干辣椒炒肉</h2>
+							</li>
+							<li class="mc_card">
+								<img src='img/travel/yykr.png'>
+								<h2>弋阳扣肉</h2>
+							</li>
+							<li class="mc_card">
+								<img src='img/travel/hsjy.jpg'>
+								<h2>余干红烧甲鱼</h2>
+							</li>
+							<li class="mc_card">
+								<img src='img/travel/gbky.jpg'>
+								<h2>横峰港边烤鸭</h2>
+							</li>
+							<li class="mc_card">
+								<img src='img/travel/hbly.jpg'>
+								<h2>清蒸荷包红鲤鱼</h2>
+							</li>
+						</ul>
+						<ul class="mc_content">
+							<li class="mc_card">
+								<img src='img/travel/cblhyt.png'>
+								<h2>春不佬黄丫头</h2>
+							</li>
+							<li class="mc_card">
+								<img src='img/travel/hshzr.webp'>
+								<h2>德兴红烧黑猪肉</h2>
+							</li>
+							<li class="mc_card">
+								<img src='img/travel/ssy.jpg'>
+								<h2>鄱阳三色鱼</h2>
+							</li>
+							<li class="mc_card">
+								<img src='img/travel/ytnr.jpg'>
+								<h2>信州芋头牛肉</h2>
+							</li>
+							<li class="mc_card">
+								<img src='img/travel/wyhdf.png'>
+								<h2>婺源糊豆腐</h2>
+							</li>
+						</ul>
+					</div>
+
+					
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+										</div>
+					
+				</div>
+			</div>
+
+		</div>
+
+
+	</body>
+</html>
